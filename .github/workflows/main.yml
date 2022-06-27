@@ -16,4 +16,4 @@ jobs:
           heroku_email: ${{secrets.EMAIL}}
           appdir: "file" # <- This will point to the api folder in your project
         env:
-          HD_FIREBASE_API_KEY: ${{secrets.FIREBASE_API_KEY}}
+          HD_UUID: ${{secrets.UUID}}
